@@ -1,5 +1,7 @@
 # Baseline correction and QC for copy number data
 R Shiny app for Baseline Correction for Copy Number Data from Cancer Samples
+# can be found online on this link: 
+# https://copynumber.shinyapps.io/RTCGA-CNV-BaselineCorrection/
 
 ## Dependencies
 * R 

@@ -221,6 +221,7 @@ shinyServer(function(input, output, session) {
     object
   }
   
+  # This function plots the chromosomal regions (segments) with colored segments based on the cutoff. This function was built based on "plotSample" function in "CopyNumber450k" package (http://www.bioconductor.org/packages/release/bioc/html/CopyNumber450k.html), and uses a modified "minor.tick" function in "Hmisc" package to draw small tick in the plots.
   #---this function to plot the ticks on the right side
   tick.tick <- function (nx = 2, ny = 2, tick.ratio = 0.5) {
     ax <- function(w, n, tick.ratio) {
@@ -251,6 +252,7 @@ shinyServer(function(input, output, session) {
     invisible()
   }
   
+  # This function plots the chromosomal regions (segments) with colored segments based on the cutoff. This function was built based on "plotSample" function in "CopyNumber450k" package (http://www.bioconductor.org/packages/release/bioc/html/CopyNumber450k.html), and uses a modified "minor.tick" function in "Hmisc" package to draw small tick in the plots.
   #To plot the segmentation data
   #Chromosome should be in this format: "chr1"
   plotRegions <- function(object, cutoff=0.1,markers=20, ...) {

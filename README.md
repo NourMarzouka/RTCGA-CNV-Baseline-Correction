@@ -12,4 +12,7 @@ R Shiny app for Baseline Correction for Copy Number Data from Cancer Samples
 * markdown
 
 
+Developed by: Nour-al-dain Marzouka & Jonas Hagberg
+
+
 
